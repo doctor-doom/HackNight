@@ -14,7 +14,7 @@ try:
         mytime = time.ctime()
         sense.show_message(+mytime + ' and ' + temp1 + '*F', text_colour=blue)
         time.sleep(30)
-    except KeyboardInterrupt:
+except KeyboardInterrupt:
 # When user escapes (ctrl-c) it clears screen and exits    
         sense.clear()
         pass
