@@ -16,7 +16,7 @@ try:
         #sense.show_message('temp', text_colour=red)
         sense.show_message(temp1+'*F '+mytime)
         time.sleep(30)
-    except KeyboardInterrupt:
+except KeyboardInterrupt:
         #sense.show_message("")
         sense.clear()
         pass
